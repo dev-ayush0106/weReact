@@ -5,6 +5,7 @@ import './App.css'
 import First, { First1 } from './Class 1/First'
 import Second from './Class 2/Second'
 import PropsDealing from './Class 2/PropsDealing'
+import Routing from './Class 3/Routing'
 
 function App() {
 
@@ -14,7 +15,9 @@ function App() {
       {/* <First1/> */}
 
       {/* <Second/> */}
-      <PropsDealing/>
+      {/* <PropsDealing/> */}
+
+      <Routing/>
     </>
   )
 }
